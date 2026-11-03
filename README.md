@@ -53,7 +53,11 @@ http://localhost:8501
 - `interface.py` : interface Streamlit
 - `modele_pluie.pkl` : modèle entraîné
 
-La base de données locale et la clé API Infoclimat ne sont pas incluses dans le dépôt. Le modèle sauvegardé permet toutefois d'utiliser l'application sans relancer l'entraînement.
+Les données météorologiques proviennent d'Infoclimat, pour la station Paris 6ème - Saint-Germain-des-Prés (000CT).
+
+La base SQLite `meteo_paris.db` est disponible dans le dépôt. Les conditions de réutilisation des données Infoclimat doivent être respectées.
+
+La clé API Infoclimat n'est pas publiée. Le modèle sauvegardé permet de lancer l'application sans relancer la collecte ni l'entraînement.
 
 ## Limites
 
