@@ -11,6 +11,3 @@ __pycache__/
 
 # Fichiers macOS
 .DS_Store
-
-# Base de données locale
-meteo_paris.db
