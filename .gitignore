@@ -1,0 +1,16 @@
+
+# Informations confidentielles
+.env
+
+# Environnement Python
+.venv/
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+
+# Fichiers macOS
+.DS_Store
+
+# Base de données locale
+meteo_paris.db
